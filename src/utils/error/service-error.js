@@ -13,3 +13,5 @@ class ServiceError extends Error{
         this.statusCodes=statusCodes
     }
 }
+
+module.exports = ServiceError
