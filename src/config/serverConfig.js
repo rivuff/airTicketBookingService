@@ -4,5 +4,5 @@ dotenv.config();
 
 module.exports={
     PORT : process.env.PORT,
-    DB_SYNC: process.env.DB_SYNC
+    Flight_Service_Path: process.env.Flight_Service_Path
 }
