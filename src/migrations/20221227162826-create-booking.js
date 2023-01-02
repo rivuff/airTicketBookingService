@@ -17,6 +17,16 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull:false
       },
+      noOfSeats: {
+        type: Sequelize.INTEGER,
+        allowNull:false,
+        defaultValue: 1
+      },
+      totalCost: {
+        type: Sequelize.INTEGER,
+        allowNull:false,
+        defaultValue: 1
+      },
       status: {
         type: Sequelize.ENUM,
         allowNull:false,

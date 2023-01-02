@@ -1,16 +1,16 @@
-class AppError extends Error{
+class AppError extends Error {
     constructor(
         name,
-        message, 
+        message,
         explanation,
         statusCode
-    ){
+    ) {
         super();
-        this.name= name,
-        this.message=message,
-        this.explanation=explanation,
-        this.statusCode=statusCode
+        this.name = name;
+        this.message = message;
+        this.explanation = explanation;
+        this.statusCode = statusCode;
     }
 }
 
-module.exports=AppError
+module.exports = AppError;
