@@ -44,6 +44,7 @@ class BookingService{
             throw new ServiceError();
         }
     }
+    
 }
 
 module.exports = BookingService
